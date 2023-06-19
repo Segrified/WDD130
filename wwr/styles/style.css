@@ -275,3 +275,28 @@ footer .social img {
         margin-top: 25px;
     }
 }
+
+/*  Rates Page */
+
+.rates-grid {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+#card-background {
+    height: 725px;
+    width: 75%;
+    background-color: #19446B;
+    margin: auto;
+}
+
+#rates-title {
+    grid-column: 2/3;
+    margin-top: 10px;
+    font-size: 2em;
+}
+
+#rates-title h1, #rates-title h4{
+    text-align: center;
+    color: black;
+}
