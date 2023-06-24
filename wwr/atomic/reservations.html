@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atomic Arcade | Reservations</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="content">
+        <header>
+            <a id="logo_link" href="index.html">
+                <img class="logo" src="images/ATOMIC.png" alt="Atomic Arcade Logo">
+            </a>
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="events.html">Events</a>
+                <a href="reservations.html">Reservations</a>
+            </nav>
+            <div id="header_bar"></div>
+            <div id="home_bar"></div>
+            <div id="events_bar"></div>
+            <div id="reservations_bar"></div>
+        </header>
+        <main class="reservations-grid">
+            <div id="upper-background"></div>
+            <img class="upper-img" src="images/arcadeimage006.jpeg" alt="Two kids playing games">
+            <section class="upper-msg">
+                <h3 id="disclaimer">Disclaimer</h3>
+                <p>placeholder paragraph</p>
+            </section>
+            <form action="/my-handling-form-page" method="post">
+                <ul>
+                  <li>
+                    <label for="datetime">Date/Time:</label>
+                    <input type="date" id="datetime" name="datetime" value="2023-06-24" min="2023-01-01" max="2023-12-31">
+                  </li>
+                  <li>
+                    <input type="radio" name="selection"/> : Party Room<br/>
+                    <input type="radio" name="selection"/> : Whole Store<br/>
+                  </li>
+                  <li class="button">
+                    <button type="submit">Check Availability</button>
+                  </li>
+                </ul>
+            </form>
+            <img class="lower-reservations-img" src="images/arcadeimage003.jpeg" alt="A group of kids playing games">
+        </main>
+        <footer>
+            <p>Atomic Arcade &copy; 2023 - Tucker Giovo</p>
+            <p><a href="events.html">Events</a></p>
+            <p><a href="reservations.html">Reservations</a></p>
+            <div class="social">
+                <a href="https://facebook.com" target="_blank">
+                    <img src="images/facebook.png" alt="fb icon">
+                </a>
+                <a href="https://twitter.com" target="_blank">
+                    <img src="images/twitter.png" alt="twitter icon">
+                </a>
+                <a href="https://instagram.com" target="_blank">
+                    <img src="images/instagram.png" alt="instagram icon">
+                </a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
